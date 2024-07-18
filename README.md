@@ -13,3 +13,6 @@
     - [x] preOrder
     - [x] postOrder
   - [x] Size and Height
+- [x] PriorityQueue
+  - [x] MaxHeap
+  - [x] HeapSort

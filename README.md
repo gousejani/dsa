@@ -16,3 +16,15 @@
 - [x] PriorityQueue
   - [x] MaxHeap
   - [x] HeapSort
+- [x] DisjointSets
+- [ ] BST
+  - [x] find
+  - [x] findInsert
+  - [x] insert
+  - [x] delete
+  - [x] next
+  - [x] range
+  - [x] rotateRight
+  - [ ] rotateLeft
+  - [ ] AVLInsert
+  - [ ] AVLDelete

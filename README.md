@@ -30,3 +30,5 @@
   - [ ] AVLDelete
   - [ ] AVL Split Merge
   - [ ] bst applications
+- [x] Hashing
+  - [x] HashMap

@@ -28,3 +28,5 @@
   - [ ] rotateLeft
   - [ ] AVLInsert
   - [ ] AVLDelete
+  - [ ] AVL Split Merge
+  - [ ] bst applications

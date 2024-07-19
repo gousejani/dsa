@@ -3,13 +3,18 @@ import { TreeNode } from "../treeNode";
 export class BinarySearchTree {
   root: TreeNode<number> | null;
 
-  constructor(arr: number[]) {
+  constructor(arr: Array<number | null>) {
     this.root = this.convertToTree(arr, 0);
   }
 
   size(root = this.root): number {
     if (root == null) return 0;
     return 1 + this.size(root.left) + this.size(root.right);
+  }
+
+  height(root = this.root): number {
+    if (root == null) return 0;
+    return 1 + Math.max(this.height(root.left), this.height(root.right));
   }
 
   find(val: number, root = this.root): TreeNode<number> | null {
@@ -37,6 +42,29 @@ export class BinarySearchTree {
         return root;
       }
       return this.findInsert(val, root.right as TreeNode<number>);
+    }
+  }
+
+  rotateRight(x: TreeNode<number>) {
+    let y = x.left;
+    let p = x.parent;
+    let b = y?.right;
+
+    if (y) {
+      y.parent = p;
+      if (p) {
+        if (p.value > y.value) {
+          p.left = y;
+        } else {
+          p.right = y;
+        }
+      }
+      x.parent = y;
+      y.right = x;
+      if (b) {
+        x.left = b;
+        b.parent = x;
+      }
     }
   }
 

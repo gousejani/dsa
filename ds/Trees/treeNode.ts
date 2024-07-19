@@ -2,6 +2,7 @@ export class TreeNode<T> {
   value: T;
   left: TreeNode<T> | null;
   right: TreeNode<T> | null;
+  parent?: TreeNode<T>;
   constructor(val: T, left?: TreeNode<T> | null, right?: TreeNode<T> | null) {
     this.value = val;
     this.left = left === undefined ? null : left;

@@ -34,8 +34,8 @@
   - [x] HashMap
 
 ## Sorts
-- [ ] Bubble Sort
-- [ ] Insertion Sort
-- [ ] Merge Sort
+- [x] Bubble Sort [WikiLink](https://en.wikipedia.org/wiki/Bubble_sort)
+- [x] Insertion Sort [WikiLink](https://en.wikipedia.org/wiki/Insertion_sort)
+- [x] Merge Sort [WikiLink](https://en.wikipedia.org/wiki/Merge_sort)
 - [ ] Quick Sort
 - [ ] Radiz Sort 

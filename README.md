@@ -32,3 +32,10 @@
   - [ ] bst applications
 - [x] Hashing
   - [x] HashMap
+
+## Sorts
+- [ ] Bubble Sort
+- [ ] Insertion Sort
+- [ ] Merge Sort
+- [ ] Quick Sort
+- [ ] Radiz Sort 

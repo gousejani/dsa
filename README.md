@@ -30,3 +30,12 @@
   - [ ] AVLDelete
   - [ ] AVL Split Merge
   - [ ] bst applications
+- [x] Hashing
+  - [x] HashMap
+
+## Sorts
+- [x] Bubble Sort [WikiLink](https://en.wikipedia.org/wiki/Bubble_sort)
+- [x] Insertion Sort [WikiLink](https://en.wikipedia.org/wiki/Insertion_sort)
+- [x] Merge Sort [WikiLink](https://en.wikipedia.org/wiki/Merge_sort)
+- [ ] Quick Sort
+- [ ] Radiz Sort 

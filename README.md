@@ -32,6 +32,7 @@
   - [ ] bst applications
 - [x] Hashing
   - [x] HashMap
+- [x] Trie 
 
 ## Sorts
 

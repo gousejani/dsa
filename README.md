@@ -39,4 +39,4 @@
 - [x] Insertion Sort [WikiLink](https://en.wikipedia.org/wiki/Insertion_sort)
 - [x] Merge Sort [WikiLink](https://en.wikipedia.org/wiki/Merge_sort)
 - [x] Quick Sort [WikiLink](https://en.wikipedia.org/wiki/Quicksort)
-- [ ] Radiz Sort
+- [ ] Radix Sort

@@ -2,6 +2,7 @@ import { bubbleSort } from "../bubbleSort";
 import { insertionSort } from "../insertionSort";
 import { mergeSort } from "../mergeSort";
 import { quickSort } from "../quickSort";
+import { selectionSort } from "../selectionSort";
 
 describe("sort test", () => {
   it("bubble sort", () => {
@@ -61,6 +62,24 @@ describe("sort test", () => {
     expect(quickSort([1])).toEqual([1]);
     expect(quickSort([1, 2, 3, 4])).toEqual([1, 2, 3, 4]);
     expect(quickSort([0, -3, -1, 6, 8, -Infinity, Infinity, 5])).toEqual([
+      -Infinity,
+      -3,
+      -1,
+      0,
+      5,
+      6,
+      8,
+      Infinity,
+    ]);
+  });
+
+  it("selection sort", () => {
+    expect(selectionSort([3, 4, 2, 1])).toEqual([1, 2, 3, 4]);
+    expect(selectionSort([])).toEqual([]);
+    expect(selectionSort([3, 4, 2, 5, 1])).toEqual([1, 2, 3, 4, 5]);
+    expect(selectionSort([1])).toEqual([1]);
+    expect(selectionSort([1, 2, 3, 4])).toEqual([1, 2, 3, 4]);
+    expect(selectionSort([0, -3, -1, 6, 8, -Infinity, Infinity, 5])).toEqual([
       -Infinity,
       -3,
       -1,
